@@ -1,0 +1,19 @@
+		{{#foreach posts}}
+			<article class="post">
+				<header>
+					<h2 class="post-title">
+						<a href="{{url}}">{{{title}}}</a>
+					</h2>
+				</header>
+				<date class="post-meta">
+					{{date format="DD MMMM YYYY"}}
+				</date>
+				<div class="post-content">
+					{{content words="100"}}
+				</div>
+			</article>
+		{{/foreach}}
+	{{pagination}}
+	</div>
+{{^is "home, paged"}}{{> "sidebar"}}{{/is}}
+</div>

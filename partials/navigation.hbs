@@ -1,0 +1,5 @@
+<nav id="nav-menu" class="clearfix">
+	{{#foreach navigation}}
+		<a class="nav-item{{#if current}} current{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
+	{{/foreach}}
+</nav>

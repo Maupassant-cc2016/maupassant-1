@@ -1,0 +1,19 @@
+<div id="secondary">
+	{{#is "home"}}
+		<section class="widget">
+			<h3 class="widget-title">Latest Posts</h3>
+				<ul class="widget-list">
+					{{#foreach posts}}
+						<li><a href="{{url}}">{{{title}}}</a></li>
+					{{/foreach}}
+				</ul>
+		</section>
+	{{/is}}
+	<section class="widget">
+		<h3 class="widget-title">Meta</h3>
+		<ul class="widget-list">
+			<li><a href="/rss/">Site RSS</a></li>
+			<li><a href="/ghost/">Site Admin</a></li>
+		</ul>
+	</section>
+</div>

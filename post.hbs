@@ -1,0 +1,20 @@
+{{!< default}}
+{{#post}}
+<div class="col-8" id="main">
+    <div class="res-cons">
+        <article class="post">
+            <header>
+                <h1 class="{{url}}">{{title}}</h1>
+            </header>
+            <date class="post-meta">
+                {{date format='YYYY-MM-DD'}}
+            </date>
+            <div class="post-content">
+                {{content}}
+            </div>
+        </article>
+    </div>
+</div>
+
+{{> "sidebar"}}
+{{/post}}
