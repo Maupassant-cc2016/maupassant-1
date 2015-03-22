@@ -11,3 +11,5 @@ A simple typecho template with great performance on different devices.
 + Octopress：https://github.com/pagecho/mewpassant/
 + Farbox：https://github.com/pagecho/Maupassant-farbox/
 + Wordpress：https://github.com/iMuFeng/maupassant/
+
+NOTE: The Ghost Platform is very different from Typecho and WordPress. It's very simple and with much fewer APIs, so some functions, especially those in the Sidebar cannot work. You can remove the sidebar or customize it by yourself as you like if you don't like the sidebar in the ported theme :)
